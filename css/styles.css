@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    /* margin-bottom: 0px;
+    margin-top: 0px; */
+    /* 100% mtlb 16px mtlb 1em......so for 90px the percentage should be (100/16)*90=562.5% and 5.625em */
+    font-size: 562.5%;      
+    margin: 0 auto 0 auto;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px auto 0 auto;
+}
+h2{
+    font-weight: normal;
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif; 
+}
+hr{
+    border: dotted 6px;
+    color: #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+
+.top_container{
+    background-color: #B9F3E4;
+    padding-top: 80px;
+}
+.middle-container{
+    margin: 90px 0 100px 0;
+
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px ;
+}
+.top{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+.middle{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.bottom{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}.bottom_cloud{
+    position: absolute;
+    left: 300px ;
+    bottom: 250px;
+}
+.top_cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.comp{
+    height:35   0px;
+    width: 200px;
+}
+.skill-row{
+    width: 40%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    /* line-height: 2; */
+}
+.skill-image1{
+    width: 30%;
+    float: left ;
+    margin-right: 30px;
+}
+.skill-image2{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+/* .discreption-skill1{
+    clear: left;
+}
+/* clear is anti of float property */
+/* .discreption-skill2{
+    clear: right;
+} */ 
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
